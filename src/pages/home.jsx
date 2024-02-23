@@ -33,8 +33,8 @@ export function Home() {
 
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-              Professional Detailing Service for all makes and models. With over a decade worth of detailing experience with high end to low end vehicles.
-Offering a range of services from basic interior/exterior to full exterior paint correction.
+                Professional Detailing Service for all makes and models. With over a decade worth of detailing experience with high end to low end vehicles.
+                Offering a range of services from basic interior/exterior to full exterior paint correction.
               </Typography>
             </div>
           </div>
@@ -68,10 +68,16 @@ Offering a range of services from basic interior/exterior to full exterior paint
                 Don't Just Take Our Word For It – See What Our Happy Customers Say
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-              We're passionate about delivering the highest quality car detailing experiences.  But words can only go so far. 
-              That's why we invite you to hear directly from the folks we've had the pleasure of serving.
+                We're passionate about delivering the highest quality car detailing experiences.  But words can only go so far.
+                That's why we invite you to hear directly from the folks we've had the pleasure of serving.
               </Typography>
-              <Button variant="filled">Read Reviews</Button>
+              
+              <a
+                href="https://www.facebook.com/oakleysdetails/reviews"
+                target="_blank"
+              >
+                <Button variant="filled">Read Reviews</Button>
+              </a>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
