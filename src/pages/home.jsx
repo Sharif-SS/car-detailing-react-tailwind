@@ -29,12 +29,12 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Your story starts with us.
+                Keep Shifting And Shining!
+
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+              Professional Detailing Service for all makes and models. With over a decade worth of detailing experience with high end to low end vehicles.
+Offering a range of services from basic interior/exterior to full exterior paint correction.
               </Typography>
             </div>
           </div>
@@ -65,19 +65,13 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Don't Just Take Our Word For It – See What Our Happy Customers Say
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-                <br />
-                <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+              We're passionate about delivering the highest quality car detailing experiences.  But words can only go so far. 
+              That's why we invite you to hear directly from the folks we've had the pleasure of serving.
               </Typography>
-              <Button variant="filled">read more</Button>
+              <Button variant="filled">Read Reviews</Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
@@ -89,18 +83,16 @@ export function Home() {
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">Enterprise</Typography>
+                  <Typography variant="small" color="blue-gray" className="font-normal">Person X</Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Top Notch Services
+                    Review Header Example X
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Loren Ipsum
                   </Typography>
                 </CardBody>
               </Card>
@@ -115,7 +107,7 @@ export function Home() {
             Ted, Scambos, NSIDClead scentist, puts the potentially record
             maximum.
           </PageTitle>
-          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-2">
             {teamData.map(({ img, name, position, socials }) => (
               <TeamCard
                 key={name}
